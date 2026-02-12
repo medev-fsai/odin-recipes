@@ -1,0 +1,98 @@
+/*Style css for recipes*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div {
+    width: 60%;
+    margin: 0px auto;
+    border: 1px solid lightgrey;
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+}
+
+h1,
+h2 {
+    padding: 20px;
+    text-decoration-line: underline;
+    
+}
+
+h3 {
+    padding: 40px;
+    text-decoration: underline;
+}
+img {
+    display: block;
+    width: 700px;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+p {
+    margin: 5px;
+    padding: 20px;
+    background-color: rgb(200, 200, 200);
+    border-radius: 10px;
+}
+
+ul {
+    padding: 30px;
+}
+
+ul li {
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: lightblue;
+    width: 100%;
+}
+
+ul li strong {
+    background-color: lightgreen;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    margin: 0 5px;
+    padding: 5px 0px;
+    border-radius: 4px;
+}
+
+
+ol {
+    padding: 30px;
+}
+
+ol li {
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: lightblue;
+    width: 100%;
+}
+
+
+ol li strong {
+    background-color: lightgreen;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    margin: 0 5px;
+    padding: 5px 0px;
+    border-radius: 4px;
+}
